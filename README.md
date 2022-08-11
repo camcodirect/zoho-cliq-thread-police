@@ -28,8 +28,3 @@ Some text
 Some text
 
 ```
-
-## Bugs and feature requests
-
-Have a bug or a feature request? - log and issue
-
