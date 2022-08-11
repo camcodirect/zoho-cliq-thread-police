@@ -26,5 +26,3 @@ Some text
 ## What's included
 
 Some text
-
-```
