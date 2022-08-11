@@ -3,9 +3,7 @@
 <p align="center">
 
   <p align="center">
-    Short description
-    <br>
-    a bot for Zoho Cliq that attempts to automatically thread messages when silly humans forget to. :)
+    A bot for Zoho Cliq that attempts to automatically thread messages when silly humans forget to. :)
   </p>
 </p>
 
