@@ -1,0 +1,71 @@
+
+ /***********************************************************************
+  * TITLE   :   MESSAGE_HANDLER.DG
+  * AUTHOR  :   John Pia | Camco Technologies
+  *
+  * STACK   :   Zoho/Deluge
+  * DATE    :   08-11-2022
+  *
+  * PARAMETERS :
+  * - @example1 | array (map) | --- another example array(map)
+  *
+  * SUMMARY :
+  *   This is where you put a few lines summeriazing the code. 
+  *   The bit empty hundreds doing what way always mind of this 
+  *   its so upper his right and a to contrast, the to client to 
+  *   she flatter that it another, the know shared the for this
+  *   were duties, on caught mental a appeared noting its needed.
+  ***********************************************************************/ 
+
+
+
+
+
+
+
+/*
+- DOCUMENTATION URL:
+    https://www.zoho.com/cliq/help/platform/messageaction-handlers.html
+
+- EXAMPLE HANDLER DELUGE:
+    
+    // Sample Syntax for Google Drive Message Action
+    message = Map();
+    file = attachments.get(0);
+    params = Map();
+    params.put("name",file);
+    comments = Map();
+    comments.put("stringPart","true");
+    comments.put("paramName","metadata");
+    comments.put("content",params.toString());
+    comments.put("contentType","application/json");
+    comments.put("encodingType","UTF-8");
+    fileList = List();
+    fileList.add(comments);
+    fileList.add(file);
+    driveHeaders = Map();
+    driveHeaders.put("Content-Type","multipart/related");
+    response = invokeurl
+    [
+        url :"https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart"
+        type :POST
+        headers:driveHeaders
+        files:fileList
+        connection: //Give your connection name
+    ];
+    info response;
+    fileDetails = invokeurl
+    [
+        url :"https://www.googleapis.com/drive/v3/files/" + encodeUrl(response.get("id")) + "?fields=name,id,webViewLink&restrictToMyDrive=true"
+        type :GET
+        connection: //Give your connection name
+    ];
+    button = List();
+    if(!fileDetails.get("webViewLink").isNull())
+    {
+        button.add({"label":"View","action":{"type":"open.url","data":{"web":fileDetails.get("webViewLink")}},"type":"+"});
+    }
+    message = {"text":"The file [" + response.get("name") + "]("+fileDetails.get("webViewLink")+") has been uploaded to your Google Drive. :thumbsup:"};
+    return message;
+
+*/ 
