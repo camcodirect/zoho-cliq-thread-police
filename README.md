@@ -1,14 +1,16 @@
 # zoho-cliq-thread-police
+<<<<<<< HEAD
  
 <p align="center">
 
   <p align="center">
     Short description
     <br>
+=======
+  <p>
+>>>>>>> 67354891207e2e3e5787234a9e402a201ee7266e
     A bot for Zoho Cliq that attempts to automatically thread messages when silly humans forget to. :)
   </p>
-</p>
-
 
 ## Table of contents
 
@@ -28,10 +30,3 @@ Some text
 ## What's included
 
 Some text
-
-```
-
-## Bugs and feature requests
-
-Have a bug or a feature request? - log and issue
-
