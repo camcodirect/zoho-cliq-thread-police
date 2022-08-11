@@ -1,9 +1,7 @@
 # zoho-cliq-thread-police
-<<<<<<< HEAD
- 
->>>>>>> 67354891207e2e3e5787234a9e402a201ee7266e
-    A bot for Zoho Cliq that attempts to automatically thread messages when silly humans forget to. :)
-  </p>
+<p>
+A bot for Zoho Cliq that attempts to automatically thread messages when silly humans forget to. :)
+</p>
 
 ## Table of contents
 
