@@ -13,9 +13,7 @@ A bot for Zoho Cliq that attempts to automatically thread messages when silly hu
 
 Some text
 
-- Some text 1
-- Some text 2
-- Some text 3
+- MIRO BORAD [https://miro.com/app/board/uXjVPfEJ2Hk=/]
 
 
 ## What's included
